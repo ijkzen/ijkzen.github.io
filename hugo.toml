@@ -1,0 +1,4 @@
+baseURL = 'https://ijkzen.github.io'
+languageCode = 'zh-cn'
+title = 'IJKZEN'
+theme = 'PaperMod'
