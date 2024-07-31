@@ -2,3 +2,20 @@ baseURL = 'https://ijkzen.github.io'
 languageCode = 'zh-cn'
 title = 'IJKZEN'
 theme = 'PaperMod'
+
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "monokai"
+
+[params]
+defaultTheme = "auto"
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowFullTextinRSS = true
+ShowPostNavLinks = true
+ShowWordCount = true
+env = "production"
+ShowRssButtonInSectionTermList = true
