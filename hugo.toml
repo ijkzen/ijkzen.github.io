@@ -1,8 +1,15 @@
-baseURL = 'https://ijkzen.github.io'
-languageCode = 'zh-cn'
-title = 'IJKZEN'
-theme = 'PaperMod'
+# This is a simple configuration.
+# If you want to see the full configuration, please check `full-config.toml` .
+# And see https://gohugo.io/getting-started/configuration/ .
 
+baseURL = "https://ijkzen.github.io"
+title = "IJKZEN"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "PaperMod"
+
+[params.assets]
+disableHLJS = true
 
 [markup.highlight]
 codeFences = true
@@ -11,11 +18,7 @@ lineNos = true
 style = "monokai"
 
 [params]
-defaultTheme = "auto"
 ShowBreadCrumbs = true
+ShowToc = true
 ShowCodeCopyButtons = true
-ShowFullTextinRSS = true
-ShowPostNavLinks = true
-ShowWordCount = true
-env = "production"
-ShowRssButtonInSectionTermList = true
+
